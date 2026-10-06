@@ -34,15 +34,45 @@ body {
   top: .5rem;
 }
 
-.study-header,
+header,
 .specimen-grid,
+main,
 footer {
   width: min(100% - 2rem, var(--max));
   margin-inline: auto;
 }
 
-.study-header {
+header {
   padding-block: 2rem 1rem;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin-top: 1rem;
+}
+
+nav a {
+  padding: .6rem .85rem;
+  color: var(--brand);
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: .35rem;
+}
+
+nav a:hover {
+  background: var(--paper);
+}
+
+nav a:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+nav a[aria-current="page"] {
+  background: var(--brand);
+  color: var(--paper);
 }
 
 .eyebrow,
