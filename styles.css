@@ -257,6 +257,20 @@ footer {
   color: var(--brand);
 }
 
+.services-intro {
+  position: relative;
+}
+
+.services-intro::before {
+  content: "";
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: .75rem;
+  background: var(--accent);
+  clip-path: circle(50%);
+}
+
 form {
   display: grid;
   gap: 1rem;
