@@ -325,6 +325,19 @@ textarea {
   color: var(--ink);
 }
 
+input:user-invalid,
+select:user-invalid,
+textarea:user-invalid {
+  border-color: #b00020;
+  border-width: 2px;
+}
+
+input:user-valid,
+select:user-valid,
+textarea:user-valid {
+  border-color: #2e6b3a;
+}
+
 input:focus-visible,
 select:focus-visible,
 textarea:focus-visible {
