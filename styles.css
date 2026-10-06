@@ -231,6 +231,32 @@ footer {
   padding-block: 2rem;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-block: 1rem;
+  background: var(--paper);
+}
+
+caption {
+  margin-bottom: .5rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+th,
+td {
+  padding: .75rem;
+  border: 1px solid #777;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: var(--brand);
+  color: var(--paper);
+}
+
 @media (min-width:48rem) {
   .specimen-grid {
     grid-template-columns: repeat(2, 1fr);
