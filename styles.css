@@ -231,6 +231,58 @@ footer {
   padding-block: 2rem;
 }
 
+form {
+  display: grid;
+  gap: 1rem;
+  max-width: 40rem;
+  margin-top: 1rem;
+}
+
+form div {
+  display: grid;
+  gap: .35rem;
+}
+
+label {
+  font-weight: 700;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: .7rem;
+  border: 1px solid #777;
+  border-radius: .35rem;
+  font: inherit;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+button {
+  width: fit-content;
+  padding: .75rem 1rem;
+  border: 2px solid var(--brand);
+  border-radius: .5rem;
+  background: var(--brand);
+  color: var(--paper);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
