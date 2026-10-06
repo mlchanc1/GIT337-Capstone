@@ -231,6 +231,24 @@ footer {
   padding-block: 2rem;
 }
 
+.project-example {
+  max-width: 42rem;
+  margin: 1.5rem 0;
+}
+
+.project-example img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: .5rem;
+}
+
+.project-example figcaption {
+  margin-top: .5rem;
+  color: #444;
+  font-size: .9rem;
+}
+
 form {
   display: grid;
   gap: 1rem;
