@@ -193,6 +193,11 @@ summary {
   font-weight: 700;
 }
 
+summary:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+
 .confirmation {
   margin-top: .75rem;
   padding: 1rem;
