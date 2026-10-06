@@ -358,3 +358,14 @@ th {
     grid-column: 1 / -1;
   }
 }
+
+@media (max-width: 30rem) {
+  nav {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  nav a {
+    text-align: center;
+  }
+}
