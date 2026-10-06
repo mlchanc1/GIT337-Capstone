@@ -224,7 +224,14 @@ details[open] .confirmation {
 @media (prefers-reduced-motion: reduce) {
   .action,
   .action::after {
-    transition-duration: 0.01ms;
+    transition: none;
+  }
+
+  .action:hover,
+  .action:active,
+  .action:hover::after,
+  .action:focus-visible::after {
+    transform: none;
   }
 
   details[open] .confirmation {
